@@ -177,6 +177,9 @@ const handleScroll = (event: HandleScrollEvent, targetElement: any): boolean => 
 };
 
 export const disableBodyScroll = (targetElement: any, options?: BodyScrollOptions): void => {
+  console.log('disableBodyScroll has been disabled');
+  return;
+
   // targetElement must be provided
   if (!targetElement) {
     // eslint-disable-next-line no-console
@@ -252,6 +255,9 @@ export const clearAllBodyScrollLocks = (): void => {
 };
 
 export const enableBodyScroll = (targetElement: any): void => {
+  console.log('enableBodyScroll has been disabled');
+  return;
+
   if (!targetElement) {
     // eslint-disable-next-line no-console
     console.error(

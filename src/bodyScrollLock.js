@@ -9,15 +9,12 @@ export interface BodyScrollOptions {
 
 export const disableBodyScroll = (targetElement: any, options?: BodyScrollOptions): void => {
   console.log('disableBodyScroll has been disabled');
-  alert('disableBodyScroll has been disabled');
 };
 
 export const clearAllBodyScrollLocks = (): void => {
   console.log('clearAllBodyScrollLocks has been disabled');
-  alert('clearAllBodyScrollLocks has been disabled');
 };
 
 export const enableBodyScroll = (targetElement: any): void => {
   console.log('enableBodyScroll has been disabled');
-  alert('enableBodyScroll has been disabled');
 };
